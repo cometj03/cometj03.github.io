@@ -4,7 +4,7 @@ author:
   name: Cotes Chung
   link: https://github.com/cotes2020
 date: 2019-08-11 00:34:00 +0800
-categories: [Blogging, Tutorial]
+categories: [Demo, Tutorial]
 tags: [favicon]
 ---
 
@@ -27,12 +27,12 @@ Now, copy the remaining image files (`PNG` and `ICO`) to cover the original file
 
 The following table will help you understand the changes to the favicon files:
 
-| File(s)             | From Online Tool                  | From Chirpy |
-|---------------------|:---------------------------------:|:-----------:|
-| `*.PNG`             | ✓                                 | ✗           |
-| `*.ICO`             | ✓                                 | ✗           |
-| `browserconfig.xml` | ✗                                 | ✓           |
-| `site.webmanifest`  | ✗                                 | ✓           |
+| File(s)             | From Online Tool | From Chirpy |
+| ------------------- | :--------------: | :---------: |
+| `*.PNG`             |        ✓         |      ✗      |
+| `*.ICO`             |        ✓         |      ✗      |
+| `browserconfig.xml` |        ✗         |      ✓      |
+| `site.webmanifest`  |        ✗         |      ✓      |
 
 > Note: ✓ means keep, ✗ means delete.
 

@@ -4,7 +4,7 @@ author:
   name: Cotes Chung
   link: https://github.com/cotes2020
 date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
+categories: [Demo]
 tags: [typography]
 math: true
 mermaid: true
@@ -16,9 +16,10 @@ image:
 
 This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
 
-
 ## Titles
+
 ---
+
 # H1 - heading
 
 <h2 data-toc-skip>H2 - heading</h2>
@@ -26,7 +27,9 @@ This post is to show Markdown syntax rendering on [**Chirpy**](https://github.co
 <h3 data-toc-skip>H3 - heading</h3>
 
 <h4>H4 - heading</h4>
+
 ---
+
 <br>
 
 ## Paragraph
@@ -81,10 +84,10 @@ Moon
 ## Tables
 
 | Company                      | Contact          | Country |
-|:-----------------------------|:-----------------|--------:|
+| :--------------------------- | :--------------- | ------: |
 | Alfreds Futterkiste          | Maria Anders     | Germany |
-| Island Trading               | Helen Bennett    | UK      |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy   |
+| Island Trading               | Helen Bennett    |      UK |
+| Magazzini Alimentari Riuniti | Giovanni Rovelli |   Italy |
 
 ## Links
 
@@ -144,7 +147,7 @@ _shadow effect (visible in light mode)_
 
 The mathematics powered by [**MathJax**](https://www.mathjax.org/):
 
-$$ \sum_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6} $$
+$$ \sum\_{n=1}^\infty 1/n^2 = \frac{\pi^2}{6} $$
 
 When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
 
@@ -188,7 +191,8 @@ fi;
   "colors/light-typography",
   "colors/dark-typography"
 ```
-{: file='_sass/jekyll-theme-chirpy.scss'}
+
+{: file='\_sass/jekyll-theme-chirpy.scss'}
 
 ## Reverse Footnote
 

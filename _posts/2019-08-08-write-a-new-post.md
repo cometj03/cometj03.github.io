@@ -4,7 +4,7 @@ author:
   name: Cotes Chung
   link: https://github.com/cotes2020
 date: 2019-08-08 14:10:00 +0800
-categories: [Blogging, Tutorial]
+categories: [Demo, Tutorial]
 tags: [writing]
 render_with_liquid: false
 ---
@@ -24,7 +24,7 @@ Basically, you need to fill the [Front Matter](https://jekyllrb.com/docs/front-m
 title: TITLE
 date: YYYY-MM-DD HH:MM:SS +/-TTTT
 categories: [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [TAG]     # TAG names should always be lowercase
+tags: [TAG] # TAG names should always be lowercase
 ---
 ```
 
@@ -42,6 +42,7 @@ The `categories` of each post are designed to contain up to two elements, and th
 categories: [Animal, Insect]
 tags: [bee]
 ```
+
 ### Author Information
 
 The author information of the post usually does not need to be filled in the _Front Matter_ , they will be obtained from variables `social.name` and the first entry of `social.links` of the configuration file by default. But you can also override it as follows:
@@ -94,7 +95,7 @@ mermaid: true
 ---
 ```
 
-Then you can use it like other markdown languages: surround the graph code with ```` ```mermaid ```` and ```` ``` ````.
+Then you can use it like other markdown languages: surround the graph code with ` ```mermaid ` and ` ``` `.
 
 ## Images
 
@@ -106,8 +107,8 @@ If you want to add an image to the top of the post contents, specify the attribu
 ---
 image:
   src: /path/to/image/file
-  width: 1000   # in pixels
-  height: 400   # in pixels
+  width: 1000 # in pixels
+  height: 400 # in pixels
   alt: image alternative text
 ---
 ```
@@ -115,7 +116,6 @@ image:
 Except for `alt`, all other options are necessary, especially the `width` and `height`, which are related to user experience and web page loading performance. Later section ["Image size"](#image-size) will also mention this.
 
 Starting from _Chirpy v4.4.0_, the attributes `height` and `width` support abbreviations: `height` → `h`, `width` → `w`.
-
 
 ### Image caption
 
@@ -125,6 +125,7 @@ Add italics to the next line of an image，then it will become the caption and a
 ![img-description](/path/to/image)
 _Image Caption_
 ```
+
 {: .nolineno}
 
 ### Image size
@@ -134,6 +135,7 @@ In order to prevent the page content layout from shifting when the image is load
 ```markdown
 ![Desktop View](/assets/img/sample/mockup.png){: width="700" height="400" }
 ```
+
 {: .nolineno}
 
 Starting from _Chirpy v4.4.0_, `height` and `width` support abbreviations (`height` → `h`, `width` → `w`). The following example has the same effect as the above:
@@ -141,6 +143,7 @@ Starting from _Chirpy v4.4.0_, `height` and `width` support abbreviations (`heig
 ```markdown
 ![Desktop View](/assets/img/sample/mockup.png){: w="700" h="400" }
 ```
+
 {: .nolineno}
 
 ### Image position
@@ -154,6 +157,7 @@ By default, the image is centered, but you can specify the position by using one
   ```markdown
   ![Desktop View](/assets/img/sample/mockup.png){: .normal }
   ```
+
   {: .nolineno}
 
 - **Float to the left**
@@ -161,6 +165,7 @@ By default, the image is centered, but you can specify the position by using one
   ```markdown
   ![Desktop View](/assets/img/sample/mockup.png){: .left }
   ```
+
   {: .nolineno}
 
 - **Float to the right**
@@ -168,6 +173,7 @@ By default, the image is centered, but you can specify the position by using one
   ```markdown
   ![Desktop View](/assets/img/sample/mockup.png){: .right }
   ```
+
   {: .nolineno}
 
 > **Limitation**: Once the position of the image is specified, the image caption should not be added.
@@ -179,6 +185,7 @@ The screenshots of the program window can be considered to show the shadow effec
 ```markdown
 ![Desktop View](/assets/img/sample/mockup.png){: .shadow }
 ```
+
 {: .nolineno}
 
 ### CDN URL
@@ -188,7 +195,8 @@ If you host the images on the CDN, you can save the time of repeatedly writing t
 ```yaml
 img_cdn: https://cdn.com
 ```
-{: file='_config.yml' .nolineno}
+
+{: file='\_config.yml' .nolineno}
 
 Once `img_cdn` is assigned, the CDN URL will be added to the path of all images (images of site avatar and posts) starting with `/`.
 
@@ -197,13 +205,15 @@ For instance, when using images:
 ```markdown
 ![The flower](/path/to/flower.png)
 ```
+
 {: .nolineno}
 
 The parsing result will automatically add the CDN prefix `https://cdn.com` before the image path:
 
 ```html
-<img src="https://cdn.com/path/to/flower.png" alt="The flower">
+<img src="https://cdn.com/path/to/flower.png" alt="The flower" />
 ```
+
 {: .nolineno}
 
 ## Pinned Posts
@@ -218,7 +228,7 @@ pin: true
 
 ## Code Block
 
-Markdown symbols ```` ``` ```` can easily create a code block as follows:
+Markdown symbols ` ``` ` can easily create a code block as follows:
 
 ```
 This is a plaintext code snippet.
@@ -226,7 +236,7 @@ This is a plaintext code snippet.
 
 ### Specifying Language
 
-Using ```` ```{language} ```` you will get a code block with syntax highlight:
+Using ` ```{language} ` you will get a code block with syntax highlight:
 
 ````markdown
 ```yaml
@@ -244,6 +254,7 @@ By default, all languages except `plaintext`, `console`, and `terminal` will dis
 ```shell
 echo 'No more line numbers!'
 ```
+
 {: .nolineno}
 ````
 
@@ -255,6 +266,7 @@ You may have noticed that the code language will be displayed on the left side o
 ```shell
 # content
 ```
+
 {: file="path/to/file" }
 ````
 
@@ -264,11 +276,13 @@ If you want to display the **Liquid** snippet, surround the liquid code with `{%
 
 ````markdown
 {% raw %}
+
 ```liquid
 {% if product.title contains 'Pack' %}
   This product's title contains the word Pack.
 {% endif %}
 ```
+
 {% endraw %}
 ````
 

@@ -4,9 +4,9 @@ author:
   name: Cotes Chung
   link: https://github.com/cotes2020
 date: 2019-08-09 20:55:00 +0800
-categories: [Blogging, Tutorial]
+categories: [Demo, Tutorial]
 tags: [getting started]
-pin: true
+pin: false
 ---
 
 ## Prerequisites
@@ -28,7 +28,7 @@ Create a new repository from the [**Chirpy Starter**][use-starter] and name it `
 
 #### Option 2. Forking on GitHub
 
-[Fork **Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork) on GitHub and rename it to `<GH_USERNAME>.github.io`. Please note that the default branch code is in development.  If you want the site to be stable, please switch to the [latest tag][latest-tag] and start writing.
+[Fork **Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork) on GitHub and rename it to `<GH_USERNAME>.github.io`. Please note that the default branch code is in development. If you want the site to be stable, please switch to the [latest tag][latest-tag] and start writing.
 
 And then execute:
 
@@ -41,9 +41,10 @@ $ bash tools/init.sh
 The above command will:
 
 1. Removes some files or directories from your repository:
-    - `.travis.yml`
-    - files under `_posts`
-    - folder `docs`
+
+   - `.travis.yml`
+   - files under `_posts`
+   - folder `docs`
 
 2. If the option `--no-gh` is provided, the directory `.github` will be deleted. Otherwise, set up the GitHub Action workflow by removing the extension `.hook` of `.github/workflows/pages-deploy.yml.hook`, and then remove the other files and directories in the folder `.github`.
 
@@ -125,7 +126,7 @@ Now publish your Jekyll site by:
 
 2. Browse to your repository on GitHub. Select the tab _Settings_, then click _Pages_ in the left navigation bar, and then in the section **Source** of _GitHub Pages_, select the `/(root)` directory of branch `gh-pages` as the [publishing source][pages-src]. Remember to click <kbd>Save</kbd> before leaving.
 
-    ![gh-pages-sources](/posts/20190809/gh-pages-sources.png){: width="850" height="153" }
+   ![gh-pages-sources](/posts/20190809/gh-pages-sources.png){: width="850" height="153" }
 
 3. Visit your website at the address indicated by GitHub.
 
@@ -161,6 +162,7 @@ It depends on how you use the theme:
   - gem "jekyll-theme-chirpy", "~> 3.2", ">= 3.2.1"
   + gem "jekyll-theme-chirpy", "~> 3.3", ">= 3.3.0"
   ```
+
   {: .nolineno file="Gemfile" }
 
   And then execute the following command:
@@ -172,7 +174,7 @@ It depends on how you use the theme:
   As the version upgrades, the critical files (for details, see the [Startup Template][starter]) and configuration options will change. Please refer to the [Upgrade Guide](https://github.com/cotes2020/jekyll-theme-chirpy/wiki/Upgrade-Guide) to keep your repo's files in sync with the latest version of the theme.
 
 - If you forked from the source project (there will be `gemspec` in the `Gemfile` of your site), then merge the [latest upstream tags][latest-tag] into your Jekyll site to complete the upgrade.
-The merge is likely to conflict with your local modifications. Please be patient and careful to resolve these conflicts.
+  The merge is likely to conflict with your local modifications. Please be patient and careful to resolve these conflicts.
 
 [starter]: https://github.com/cotes2020/chirpy-starter
 [use-starter]: https://github.com/cotes2020/chirpy-starter/generate
