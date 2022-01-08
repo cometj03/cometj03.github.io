@@ -58,13 +58,13 @@ plugins: [jekyll-youtube]
 
 직접 링크 입력
 
-```yaml
+```text
 { % youtube "https://www.youtube.com/watch?v=gset79KMmt0" % }
 ```
 
 또는 [`front matter`](https://jekyllrb.com/docs/front-matter/) 변수 사용
 
-```yaml
+```text
 ---
 youtubeurl: https://www.youtube.com/watch?v=gset79KMmt0
 ---
