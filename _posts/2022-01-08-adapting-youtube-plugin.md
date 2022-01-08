@@ -71,8 +71,11 @@ youtubeurl: https://www.youtube.com/watch?v=gset79KMmt0
 { % youtube page.youtubeurl % }
 ```
 
+> 유튜브 링크는 온전한 링크만 사용이 가능한 것 같다. 공유 링크는 작동을 안 한다.
+
 ### 결과
 
 {% youtube "https://www.youtube.com/watch?v=gset79KMmt0" %}
+<br>
 
-> **Note**: 나의 경우처럼 블로그 미리보기로 보면 동영상을 재생할 수 없다고 뜰 수도 있는데, 그냥 커밋하고 푸시한 다음 좀 기다리면 해결되는 것 같았다.
+> 나의 경우처럼 블로그 미리보기로 보면 동영상을 재생할 수 없다고 뜰 수도 있는데, 그냥 커밋, 푸시한 다음 몇 분 기다리면 해결되는 것 같았다.
