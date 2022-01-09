@@ -1,5 +1,5 @@
 ---
-title: Jekyll Github Page - "Automatic build, All jobs have failed" 해결
+title: Jekyll Github Page - "The process failed with exit code 16" 해결
 author:
   name: Jung Hae Sung
   link: https://github.com/cometj03
