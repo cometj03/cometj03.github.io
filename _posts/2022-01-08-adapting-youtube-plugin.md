@@ -3,9 +3,9 @@ title: Jekyll Youtube Plugin 적용하기
 author:
   name: Jung Hae Sung
   link: https://github.com/cometj03
-date: 2022-01-08 06:31:00 +0900 # for Korea (UTC+9)
+date: 2022-01-08 18:31:00 +0900 # for Korea (UTC+9)
 categories: [Development, Github]
-tags: [jekyll plugins, blog]
+tags: [jekyll plugins, jekyll]
 ---
 
 <https://github.com/dommmel/jekyll-youtube>
@@ -35,7 +35,7 @@ end
 
 #### 2. 콘솔 실행하기
 
-```
+```console
 $ bundle
 $ gem install jekyll-youtube
 ```

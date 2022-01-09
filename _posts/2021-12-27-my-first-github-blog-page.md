@@ -7,7 +7,7 @@ date: 2021-12-27 00:28:00 +0900 # for Korea (UTC+9)
 categories: [Chatting]
 tags: [first page, blog]
 image:
-  src: /assets/img/posts/2021-12-27-preview.jpg
+  src: /assets/img/posts/20211227/preview.jpg
   width: 600
   height: 500
 ---
@@ -18,7 +18,7 @@ image:
 
 ## Why Github Blog?
 
-사실, Medium이나 네이버 블로그 등 여러 블로그 플랫폼과 장단점을 면밀하게 비교해서 깃허브 블로그를 고른 것은 아니었다. 그래서 깃허브 블로그로 시작하기로 마음먹은 이유도 그렇게 대단하진 않지만, 깃허브 블로그가 가지고 있는 이런 특징들은 재미있어 보였고 흥미로웠다.
+사실, Medium이나 네이버 블로그 등 여러 블로그 플랫폼과 장단점을 면밀하게 비교해서 이것을 고른 것은 아니었다. 그래서 깃허브 블로그로 시작하기로 마음먹은 이유도 그렇게 대단하진 않지만, 깃허브 블로그가 가지고 있는 이런 특징들은 재미있어 보였고 흥미로웠다.
 
 - 커스터마이징
 
