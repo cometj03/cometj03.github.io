@@ -15,7 +15,7 @@ tags: [minimal mistakes, github actions]
 ![Desktop View](/assets/img/posts/20220109/example1-1.png){: width="400" height="400" }
 _깃허브에게서 받은 이메일_
 
-본론으로 들어가서, 깃허브 블로그 설정을 이것저것 하다가 레포에 푸시했는데 빌드에 실패했다며 이런 이메일을 받았다. 나는 같은 현상을 [메인 레포](https://github.com/cotes2020/jekyll-theme-chirpy)와 병합할 때도 겪었다.
+본론으로 들어가서, 깃허브 블로그 설정을 이것저것 하다가 레포에 푸시했는데 빌드에 실패했다며 이런 이메일을 받았다. 나는 같은 현상을 [메인 레포](https://github.com/cotes2020/jekyll-theme-chirpy)와 병합(버전 업데이트)할 때도 겪었다.
 
 ![Desktop View](/assets/img/posts/20220109/example1-2.png){: width="972" height="589" }
 _확대 하려면 클릭_
