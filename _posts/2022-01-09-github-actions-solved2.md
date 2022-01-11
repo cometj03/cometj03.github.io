@@ -1,5 +1,5 @@
 ---
-title: Github Actions Error - Process completed with exit code 1 해결
+title: Github Actions Error - Process completed with exit code 1. 해결
 author:
   name: Jung Hae Sung
   link: https://github.com/cometj03
@@ -9,7 +9,7 @@ tags: [minimal mistakes, github actions]
 ---
 
 ![Desktop View](/assets/img/posts/20220109/example2-1.png){: width="500" height="500" }
-_노력의 흔적들..._
+_삽질의 흔적들..._
 
 ## Minimal Mistake
 
@@ -32,5 +32,7 @@ author:
 ...
 ---
 ```
+
+> 물론 나와 원인이 다를 수도 있겠지만, 제목 등 글 설정 부분에 잘못 입력한 건 없는지 확인하는 게 좋을 것 같다.
 
 `title: ` 뒤에 나오는 코드를 자동으로 문자열로 인식해서 중간에 따옴표를 넣으면 안 되는 것 같다. 저것도 나름의 문법이 있을 텐데 무슨 언어인지도 모르겠다..

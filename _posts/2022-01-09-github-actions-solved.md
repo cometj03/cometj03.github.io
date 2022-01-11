@@ -1,5 +1,5 @@
 ---
-title: Github Actions Error - The process failed with exit code 16 해결
+title: Github Actions Error - The process failed with exit code 16. 해결
 author:
   name: Jung Hae Sung
   link: https://github.com/cometj03

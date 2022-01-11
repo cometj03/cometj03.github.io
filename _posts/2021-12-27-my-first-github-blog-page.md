@@ -4,7 +4,7 @@ author:
   name: Jung Hae Sung
   link: https://github.com/cometj03
 date: 2021-12-27 00:28:00 +0900 # for Korea (UTC+9)
-categories: [Chatting]
+categories: [Chatting, About Me]
 tags: [first page, blog]
 image:
   src: /assets/img/posts/20211227/preview.jpg
