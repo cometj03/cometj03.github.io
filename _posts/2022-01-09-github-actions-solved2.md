@@ -8,12 +8,12 @@ categories: [Development, Github]
 tags: [minimal mistakes, github actions]
 ---
 
-![Desktop View](/assets/img/posts/20220109/example2-1.png){: width="500" height="500" }
+![Desktop View](/assets/posts/20220109/example2-1.png){: width="500" height="500" }
 _삽질의 흔적들..._
 
 ## Minimal Mistake
 
-![Desktop View](/assets/img/posts/20220109/example2-2.png){: width="972" height="589" }
+![Desktop View](/assets/posts/20220109/example2-2.png){: width="972" height="589" }
 _Error: Process completed with exit code 1_
 
 깃허브는 내가 [앞 포스트](https://cometj03.github.io/posts/github-actions-solved/)를 올리자마자 새로운 오류를 선사해주었다. 그 내용은 바로.. `Error: Process completed with exit code 1`
