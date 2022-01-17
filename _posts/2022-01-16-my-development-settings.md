@@ -12,9 +12,11 @@ tags: [settings, customize]
 
 ## AutoHotKey
 
-[`AutoHotKey`](https://www.autohotkey.com/)는 키보드 단축키를 커스텀할 수 있는 일종의 매크로 프로그램이다. 나는 이 프로그램을 방향키를 단축키로 대신하는 용도로써, 코드를 작성하거나 글을 쓸 때 거의 항상 애용하고 있다. 하지만 내가 활용하고 있는 기능은 매우 일부분이라서 이외의 어떤 다른 기능이 있는지 잘 알지 못하는데, 블로그에 언급된 것 외에 다른 기능을 활용하는 방법을 알고 있다면 댓글에 공유해주기 바란다. (블로그의 댓글 기능은 추후에 추가할 예정)
+[AutoHotKey](https://www.autohotkey.com/)는 키보드 단축키를 커스텀할 수 있는 일종의 매크로 프로그램이다. 나는 이 프로그램을 단축키에 방향키를 할당하는 용도로써, 코드를 작성하거나 글을 쓸 때 거의 항상 애용하고 있다.
 
-아무튼 `AutoHotKey`는 `.ahk` 확장자를 가지는 실행파일로써 실행할 수 있다. 내가 사용하고 있는 이 파일[^ahk]에 지정된 단축키를 표로 나타내면 다음과 같다.
+타자를 많이 치는 사람이라면 방향키를 누르기위해 오른손을 많이 왔다갔다 움직이게 된다. 그리고 작은 움직임이라도 반복하다 보면 근육에 무리가 가기 마련이다. 나는 근육통이 와본 적은 없지만, 코드를 짜는 사람으로서 방향키나 마우스에 손을 가져다 대는 것이 너무 귀찮았다. 그러다가 한 유튜브 영상에서 나온 키보드 세팅을 적용하고 나서부터는 그 전으로 돌아갈 수 없는 몸이 되어버렸다.
+
+내가 사용하고 있는 키보드 단축키는 다음과 같다. 이 단축키들은 `AutoHotKey`를 설치한 후, 아래에 첨부된 `.ahk` 확장자 파일[^ahk]을 실행하면 적용할 수 있다.
 
 |           단축키            |         실행         |
 | :-------------------------: | :------------------: |
@@ -27,14 +29,30 @@ tags: [settings, customize]
 | <kbd>Alt</kbd>+<kbd>P</kbd> |  <kbd>Page Up</kbd>  |
 | <kbd>Alt</kbd>+<kbd>;</kbd> | <kbd>Page Down</kbd> |
 
-이 단축키들의 장점은 텍스트를 수정할 때 방향키를 누를 때마다 오른손을 왔다갔다 움직일 필요가 없어진다는 것이다. 처음에는 어색하고 불편하겠지만 하루 이틀이면 익숙해질 수 있고, 그 대가로 손 근육의 무리와 귀찮음에서 해방될 수 있다.
+처음에는 어색하고 불편하겠지만 하루 이틀이면 익숙해질 정도로 어렵지 않다. 연습을 조금만 한다면 대가로 손 근육의 무리와 귀찮음에서 해방될 수 있다.
 
-내가 지금까지 `AutoHotKey`를 사용하면서 느낀 아쉬운 점 (연속 입력 잘 안 됨, 게임과 함께 실행 못합)
+물론 부족한 점이 없는 것은 아니다. 단축키를 길게 누르면, Alt키가 잠깐 눌리지 않았다고 인식하는 것인지, 의도치 않게 키보드의 문자가 입력될 때가 있다 (예를 들어 <kbd>Alt</kbd>+<kbd>H</kbd>를 꾹 누르고 있으면 커서가 왼쪽으로 이동하면서 `h`가 듬성듬성 입력된다). 또한 이 프로그램을 실행한 상태로 게임에 들어가면 안 된다. 명색이 메크로 프로그램인지라 게임이 핵으로 인식해 정지를 먹이기도 한다. ~~어떻게 알았는지는 물어보지 말자.~~ 모든 게임이 그런 것은 아니고, 롤이 특히 이런 것에 예민한 것 같긴 하다.
+
+내가 활용하고 있는 기능은 `HotKey` 기능 중 매우 일부분이라서 이외의 어떤 유용한 기능이 있는지 잘 알지 못한다. 나와 다른 방법으로 `AutoHotKey`를 활용하고 있거나, 내가 겪고 있는 문제를 해결하는 방법을 알고 있다면 댓글 또는 이메일로 공유해주기 바란다. (블로그의 댓글 기능은 추후에 추가 예정)
 
 ## Chrome Extension
 
+### Dark Reader
+
+[Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)는 웹사이트를 다크모드로 바꿔주는 크롬 익스텐션이다. Medium에서 블로그를 보던 중 왜 Medium에는 다크모드가 없을까 궁금해서 찾아보니 `Dark Reader`를 사용하는 방법이 있었다. 이 익스텐션은 Medium 뿐만 아니라 거의 모든 웹사이트를 다크모드로 바꿀 수 있다. 그리고 다크모드의 퀄리티가 꽤 좋아서 다크모드를 좋아하는 내가 아주 유용하게 사용중인 익스텐션 중 하나가 되었다.
+
+### Color Hunt
+
+[Color Hunt](https://chrome.google.com/webstore/detail/color-tab/hchlgfaicmddilenlflajnmomalehbom)는 그냥 예뻐서 잘 사용하고 있는 크롬 익스텐션인데, Color Hunt의 색 조합을 기반으로 매번 다른 크롬의 새 탭을 볼 수 있다.
+|![Color hunt preview1](/assets/posts/20220116/colorhunt1.jpg)|
+_Image Sorce: color hunt extension store_
+
+|![Color hunt preview2](/assets/posts/20220116/colorhunt2.jpg)|![Color hunt preview3](/assets/posts/20220116/colorhunt3.jpg)|
+
 ---
 
-#### Comment
+...
+
+Comment
 
 [^ahk]: [AutoHotKey 파일 다운로드](/assets/posts/20220116/AutoHotKeySettings.ahk)
