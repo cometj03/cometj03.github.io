@@ -39,7 +39,7 @@ tags: [settings, customize]
 
 ### Dark Reader
 
-[Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)는 웹사이트를 다크모드로 바꿔주는 크롬 익스텐션이다. Medium에서 블로그를 보던 중 왜 Medium에는 다크모드가 없을까 궁금해서 찾아보니 `Dark Reader`를 사용하는 방법이 있었다. 이 익스텐션은 Medium 뿐만 아니라 거의 모든 웹사이트를 다크모드로 바꿀 수 있다. 그리고 다크모드의 퀄리티가 꽤 좋아서 다크모드를 좋아하는 내가 아주 유용하게 사용중인 익스텐션 중 하나가 되었다.
+[Dark Reader](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh)는 웹사이트를 다크모드로 바꿔주는 크롬 익스텐션이다. Medium에서 블로그를 보던 중 왜 Medium에는 다크모드가 없을까 궁금해서 찾아보니 `Dark Reader`를 사용하는 방법이 있었다. 이 익스텐션은 Medium 뿐만 아니라 거의 모든 웹사이트를 다크모드로 바꿀 수 있다. 요즘은 대부분의 사이트에서 다크모드를 지원하지만 아직 모든 사이트가 그런 것은 아니기 때문에 이 익스텐션이 유용할 때가 종종 있다. 나처럼 쨍한 것을 잘 못보는 사람들의 눈 보호를 위해서라도 추천하고 싶은 익스텐션이다.
 
 ### Color Hunt
 
