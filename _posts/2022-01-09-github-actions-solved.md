@@ -6,6 +6,8 @@ author:
 date: 2022-01-09 19:26:00 +0900 # for Korea (UTC+9)
 categories: [Development, Github]
 tags: [minimal mistakes, github actions]
+sitemap:
+  priority: 0.8
 ---
 
 앞으로 [`minimal mistakes`](https://cometj03.github.io/tags/minimal-mistakes/) 태그에 내가 겪었던 실수나 오류들을 해결한 것을 기록할 예정인데, 오늘은 그 첫 번째 포스팅으로 Jekyll 블로그를 Github Page로 배포하다가 겪은 빌드 실패를 공유하려고 한다.

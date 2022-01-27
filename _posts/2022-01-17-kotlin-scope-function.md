@@ -6,6 +6,8 @@ author:
 date: 2022-01-17 17:16:00 +0900 # for Korea (UTC+9)
 categories: [Development, Reference]
 tags: [kotlin]
+sitemap:
+  priority: 0.8
 ---
 
 ## run

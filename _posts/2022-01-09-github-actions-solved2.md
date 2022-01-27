@@ -6,6 +6,8 @@ author:
 date: 2022-01-09 20:30:00 +0900 # for Korea (UTC+9)
 categories: [Development, Github]
 tags: [minimal mistakes, github actions]
+sitemap:
+  priority: 0.8
 ---
 
 ![Desktop View](/assets/posts/20220109/example2-1.png){: width="500" height="500" }
