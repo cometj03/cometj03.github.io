@@ -1,5 +1,5 @@
 ---
-title: My First Github Blog Page
+title: My First Github Blog Page / 첫번째 깃허브 블로그 페이지
 author:
   name: Jung Hae Sung
   link: https://github.com/cometj03

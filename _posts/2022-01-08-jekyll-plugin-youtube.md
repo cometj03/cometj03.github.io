@@ -5,7 +5,7 @@ author:
   link: https://github.com/cometj03
 date: 2022-01-08 18:31:00 +0900 # for Korea (UTC+9)
 categories: [Development, Github]
-tags: [jekyll plugins, customize, blog]
+tags: [jekyll plugins, customize, jekyll]
 sitemap:
   priority: 0.8
 ---

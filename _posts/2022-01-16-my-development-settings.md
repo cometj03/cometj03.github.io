@@ -1,5 +1,5 @@
 ---
-title: My Development Settings
+title: My Development Environment Settings / 나의 개발 환경 세팅들
 author:
   name: Jung Hae Sung
   link: https://github.com/cometj03
