@@ -4,9 +4,9 @@ refactor: true
 pannel_includes:
   - toc
 tail_includes:
+  - comments
   - related-posts
   - post-nav
-  - comments
 ---
 
 {% include lang.html %} {% if page.image.src %} {% capture bg %} {% unless
@@ -118,14 +118,3 @@ page.image.h %} height="{{ page.image.h }}" {% endif %}> {% endif %}
   <!-- .post-tail-bottom -->
 </div>
 <!-- div.post-tail-wrapper -->
-
-<!-- Utterances for commnets -->
-{% include comments.html %}
-<!-- <script
-  src="https://utteranc.es/client.js"
-  repo="cometj03/cometj03.github.io"
-  issue-term="pathname"
-  theme="github-dark"
-  crossorigin="anonymous"
-  async
-></script> -->
