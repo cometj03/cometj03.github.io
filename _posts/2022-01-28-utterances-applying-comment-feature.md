@@ -1,5 +1,5 @@
 ---
-title: Utterances - Implementing Jekyll Blog Comment System / 블로그 댓글 기능 구현하기
+title: Utterances - Applying The Jekyll Blog Comment Feature / 블로그 댓글 기능 적용하기
 author:
   name: Jung Hae Sung
   link: https://github.com/cometj03
