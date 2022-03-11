@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: About
 icon: fas fa-info-circle
 order: 4
 ---
@@ -24,7 +24,7 @@ order: 4
 - AI
 - Functional Programming
 
-### 🔭 I'm working on ...
+### 🔭 진행중인 프로젝트 | I'm working on ...
 
 - Update soon
 
