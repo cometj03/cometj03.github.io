@@ -5,7 +5,7 @@ author:
   link: https://github.com/cometj03
 date: 2022-01-09 20:30:00 +0900 # for Korea (UTC+9)
 categories: [Development, Github]
-tags: [minimal mistakes, github actions]
+tags: [ridiculous mistakes, github actions]
 sitemap:
   priority: 0.8
 ---
@@ -13,7 +13,7 @@ sitemap:
 ![Desktop View](/assets/posts/20220109/example2-1.png){: width="500" height="500" }
 _삽질의 흔적들..._
 
-## Minimal Mistake
+## Ridiculous Mistake
 
 ![Desktop View](/assets/posts/20220109/example2-2.png){: width="972" height="589" }
 _Error: Process completed with exit code 1_

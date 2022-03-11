@@ -5,18 +5,18 @@ author:
   link: https://github.com/cometj03
 date: 2022-01-09 19:26:00 +0900 # for Korea (UTC+9)
 categories: [Development, Github]
-tags: [minimal mistakes, github actions]
+tags: [ridiculous mistakes, github actions]
 sitemap:
   priority: 0.8
 ---
 
 ## Intro
 
-개발을 하면서 맞닥뜨리는 오류 중 가장 당황스러운 것은 처음보는 오류가 아니라, 예전에 기나긴 삽질을 거쳐 겨우 해결한 오류라는 것을 아마 많은 개발자들이 공감할 것 같다. 왜냐하면 해결하는 데에 많은 시간과 노력이 들어갔다는 사실만 떠오르고 어떻게 해결했는지는 기억이 안 나기 때문이다.. 그런 의미에서 나는 앞으로 [`minimal mistakes`](https://cometj03.github.io/tags/minimal-mistakes/) 태그에 내가 겪었던 실수나 오류들, 그리고 해결과정을 차곡차곡 기록해두려고 한다.
+개발을 하면서 맞닥뜨리는 오류 중 가장 당황스러운 것은 처음보는 오류가 아니라, 예전에 기나긴 삽질을 거쳐 겨우 해결한 오류라는 것을 아마 많은 개발자들이 공감할 것 같다. 왜냐하면 해결하는 데에 많은 시간과 노력이 들어갔다는 사실만 떠오르고 어떻게 해결했는지는 기억이 안 나기 때문이다.. 그런 의미에서 나는 앞으로 [`ridiculous mistakes`](https://cometj03.github.io/tags/ridiculous-mistakes/) 태그에 내가 겪었던 실수나 오류들, 그리고 해결과정을 차곡차곡 기록해두려고 한다.
 
-## Minimal Mistake
+## Ridiculous Mistake
 
-`minimal mistakes`의 첫 포스팅 주제는 Jekyll 블로그를 Github Page로 배포하다가 겪은 일이다.
+`ridiculous mistakes`의 첫 포스팅 주제는 Jekyll 블로그를 Github Page로 배포하다가 겪은 일이다.
 
 ![Desktop View](/assets/posts/20220109/example1-1.png){: width="400" height="400" }
 _깃허브에게서 받은 이메일_
