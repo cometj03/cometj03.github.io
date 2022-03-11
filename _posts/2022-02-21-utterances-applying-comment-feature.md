@@ -29,3 +29,12 @@ Utterances는 Disqus처럼 댓글 플러그인 중 하나이다. 하지만 Disqu
 # 내 블로그에 적용해보자
 
 여기에 나와있는 절차들은 [공식 사이트](https://utteranc.es/) 또는 기타 블로그에서 가져온 정보들로 구성되어 있다.
+
+## 1. Github App 설치
+
+![utterances github app installation](/assets/posts/20220221/example1.png)
+_나는 이미 설치를 한 상태여서 'Configure' 버튼이 보인다._
+
+[Utterances 설치 사이트](https://github.com/apps/utterances)에 접속한 후 Install 버튼을 눌러 댓글 Issue가 저장될 “public” 저장소를 선택한다. 새로 만든 빈 저장소를 선택하거나, 필자처럼 깃허브 블로그 저장소가 public이라면 그 저장소를 선택해도 좋다.
+
+포크를 찍은 저장소라면 Issues 탭이 보이지 않는데, Settings > Features의 Issues를 체크해주면 정상적으로 보인다. (저장소 == repository)
