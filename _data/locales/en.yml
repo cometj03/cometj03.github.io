@@ -14,7 +14,7 @@ tabs:
   categories: Categories
   tags: Tags
   archives: Archives
-  about: About
+  about: About Me
 
 # the text displayed in the search bar & search results
 search:
@@ -29,11 +29,11 @@ panel:
 
 #  The liquid date format › http://strftime.net/
 date_format:
-  tooltip: '%a, %b %e, %Y, %l:%M %p %z'
+  tooltip: "%a, %b %e, %Y, %l:%M %p %z"
   post:
-    long: '%b %e, %Y'
-    short: '%b %e'
-    archive_month: '%b'
+    long: "%b %e, %Y"
+    short: "%b %e"
+    archive_month: "%b"
 
 copyright:
   # Shown at the bottom of the post
