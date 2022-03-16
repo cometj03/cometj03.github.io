@@ -4,8 +4,8 @@ author:
   name: Jung Hae Sung
   link: https://github.com/cometj03
 date: 2022-01-09 20:30:00 +0900 # for Korea (UTC+9)
-categories: [Development, Github]
-tags: [ridiculous mistakes, github actions]
+categories: [Chatting, Ridiculous Mistakes]
+tags: [github actions]
 sitemap:
   priority: 0.8
 ---
