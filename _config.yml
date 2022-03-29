@@ -22,6 +22,7 @@ title: CometJ03 # the main title
 
 tagline: My Blog # it will display as the sub-title
 
+# TODO: replace this
 description: >- # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
   bootstrap Jekyll theme with responsive web design
@@ -29,6 +30,8 @@ description: >- # used by seo meta and the atom feed
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://cometj03.github.io"
+
+github-link: https://github.com/cometj03
 
 github:
   username: cometj03 # change to your github username

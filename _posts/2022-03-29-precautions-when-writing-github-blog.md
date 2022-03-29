@@ -1,7 +1,7 @@
 ---
 title: Precautions When Writing a Github Blog / 깃허브 블로그 작성할 때 주의사항
 author:
-  name: Jung Hae Sung
+  name: { { site.social.name } }
   link: https://github.com/cometj03
 date: 2022-03-29 21:43:00 +0900 # for Korea (UTC+9)
 categories: [Chatting, Ridiculous Mistakes]
