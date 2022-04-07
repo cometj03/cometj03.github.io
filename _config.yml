@@ -18,9 +18,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: CometJ03 # the main title
+title: Jung Hae Sung # the main title
 
-tagline: My Blog # it will display as the sub-title
+tagline: 차근차근 하나씩 # it will display as the sub-title
 
 # TODO: replace this
 description: >- # used by seo meta and the atom feed
