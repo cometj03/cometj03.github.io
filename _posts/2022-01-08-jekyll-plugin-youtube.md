@@ -80,4 +80,4 @@ youtubeurl: https://www.youtube.com/watch?v=gset79KMmt0
 {% youtube "https://www.youtube.com/watch?v=gset79KMmt0" %}
 <br>
 
-> 나의 경우처럼 블로그 미리보기로 보면 동영상을 재생할 수 없다고 뜰 수도 있는데, 그냥 커밋, 푸시한 다음 몇 분 기다리면 해결되는 것 같았다.
+> 나의 경우처럼 블로그 미리보기로 보면 동영상을 재생할 수 없다고 뜰 수도 있는데, 그냥 커밋, 푸시한 다음 몇 분 기다리면 해결되는 것 같다.

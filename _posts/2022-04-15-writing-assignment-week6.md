@@ -1,5 +1,5 @@
 ---
-title: "오기는 나의 힘 (대학글쓰기 과제: 내 인생의 인상적인 하루)"
+title: "오기는 나의 힘 (대학글쓰기 6주차 과제: 내 인생의 인상적인 하루)"
 author:
   name: { { site.social.name } }
   link: https://github.com/cometj03
