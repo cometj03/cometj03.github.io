@@ -1,6 +1,6 @@
 ---
 # prettier-ignore
-title: "(해결) Github Actions Error - \"Process completed with exit code 1.\""
+title: (해결) Github Actions Error - &quot;Process completed with exit code 1.&quot;
 author:
   name: Jung Hae Sung
   link: https://github.com/cometj03

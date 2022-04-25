@@ -1,6 +1,6 @@
 ---
 # prettier-ignore
-title: "(해결) Github Actions Error - \"The process failed with exit code 16.\""
+title: (해결) Github Actions Error - &quot;The process failed with exit code 16.&quot;
 author:
   name: Jung Hae Sung
   link: https://github.com/cometj03
