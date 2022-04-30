@@ -5,7 +5,7 @@ author:
   name: Jung Hae Sung
   link: https://github.com/cometj03
 date: 2022-01-10 20:30:00 +0900 # for Korea (UTC+9)
-categories: [Ridiculous Mistakes, Github]
+categories: [Ridiculous Error, Github]
 tags: [github actions]
 sitemap:
   priority: 0.8
@@ -14,7 +14,7 @@ sitemap:
 ![Desktop View](/static/img/20220110-1.png){: width="500" height="500" }
 _삽질의 흔적들..._
 
-## Ridiculous Mistake
+## Ridiculous Error
 
 ![Desktop View](/static/img/20220110-2.png){: width="972" height="589" }
 _Error: Process completed with exit code 1_
