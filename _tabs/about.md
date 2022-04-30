@@ -4,6 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+<<<<<<< HEAD
 ## Hi there 👋 I'm Haesung Jung
 
 ### 🎓 학력 | Education
@@ -33,3 +34,7 @@ order: 4
 - [harryjung1001@gmail.com](mailto:harryjung1001@gmail.com)
 - [Instagram](https://www.instagram.com/cometj03)
 - [Facebook](https://www.facebook.com/XxCtrlZxX)
+=======
+> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
+{: .prompt-tip }
+>>>>>>> cotes2020-master
