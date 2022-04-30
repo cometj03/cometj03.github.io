@@ -27,17 +27,6 @@ panel:
   trending_tags: Trending Tags
   toc: Contents
 
-<<<<<<< HEAD
-#  The liquid date format › http://strftime.net/
-date_format:
-  tooltip: "%a, %b %e, %Y, %l:%M %p %z"
-  post:
-    long: "%b %e, %Y"
-    short: "%b %e"
-    archive_month: "%b"
-
-=======
->>>>>>> cotes2020-master
 copyright:
   # Shown at the bottom of the post
   license:
