@@ -47,10 +47,10 @@ sitemap:
 
 [Color Hunt](https://chrome.google.com/webstore/detail/color-tab/hchlgfaicmddilenlflajnmomalehbom)는 그냥 예뻐서 잘 사용하고 있는 크롬 익스텐션인데, Color Hunt의 색 조합을 기반으로 매번 다른 크롬의 새 탭을 볼 수 있다.
 
-![Color hunt preview1](/assets/posts/20220116/colorhunt1.jpg)
+![Color hunt preview1](/static/img/20220116-colorhunt1.jpg)
 _Image Sorce: color hunt extension store_
 
-|![Color hunt preview2](/assets/posts/20220116/colorhunt2.jpg)|![Color hunt preview3](/assets/posts/20220116/colorhunt3.jpg)|
+|![Color hunt preview2](/static/img/20220116-colorhunt2.jpg)|![Color hunt preview3](/static/img/20220116-colorhunt3.jpg)|
 
 ---
 
@@ -58,4 +58,4 @@ _Image Sorce: color hunt extension store_
 
 Comment
 
-[^ahk]: [AutoHotKey 파일 다운로드](/assets/posts/20220116/AutoHotKeySettings.ahk)
+[^ahk]: [AutoHotKey 파일 다운로드](/static/AutoHotKeySettings.ahk)

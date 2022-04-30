@@ -14,8 +14,11 @@ sitemap:
 
 Disqus는 가장 많은 사람들에게 사용되고 있는 댓글 플러그인 중 하나이다. 나도 처음에는 블로그 댓글로 그나마 친숙했던 Disqus를 고려하고 있었다. 하지만 디자인이 내 마음에 들지 않았고, 게다가 시간이 지나면 광고가 붙는다는 점 때문에 결국 고려대상에서 제외했다. 그렇게 다른 대안을 찾던 중 Utterances라는 플러그인이 내 눈길을 사로잡았다.
 
+[![Utterences Icon](/static/img/20220221-utterences.png){: .left}](https://utteranc.es/)
+
 # Utterances?
 
+<br>
 Utterances는 Disqus처럼 댓글 플러그인 중 하나이다. 하지만 Disqus와는 구별되는 독특한 특징이 있고, 이는 내가 Utterances를 선택한 이유이기도 하다. 그 이유들을 정리하면 다음과 같다.
 
 [오픈소스](https://github.com/utterance)
@@ -30,42 +33,42 @@ Utterances는 Disqus처럼 댓글 플러그인 중 하나이다. 하지만 Disqu
 
 여기에 나와있는 절차들은 [공식 사이트](https://utteranc.es/) 또는 기타 블로그에서 가져온 정보들로 구성되어 있다.
 
-## 1. Github App 설치
+## 1. Github App 설치하기
 
-![utterances github app installation](/assets/posts/20220221/example1.png)
+![utterances github app installation](/static/img/20220221-ex1.png)
 _나는 이미 설치를 한 상태여서 'Configure' 버튼이 보인다._
 
 [Utterances 설치 사이트](https://github.com/apps/utterances)에 접속한 후 Install 버튼을 눌러 댓글 Issue가 저장될 “public” 저장소를 선택한다. 새로 만든 빈 저장소를 선택하거나, 필자처럼 깃허브 블로그 저장소가 public이라면 그 저장소를 선택해도 좋다.
 
 포크를 찍은 저장소라면 Issues 탭이 보이지 않는데, Settings > Features의 Issues를 체크해주면 정상적으로 보인다. (저장소 == repository)
 
-## 2. 설정
+## 2. 설정하기
 
 [공식 사이트](https://utteranc.es/)에 몇가지를 입력하면 그것에 맞는 스크립트 태그가 생성되고, 우리는 그 코드를 활용할 것이다.
 
-![](/assets/posts/20220221/example2.png)
+![](/static/img/20220221-ex2.png)
 
-2-1
-: 연결할 저장소 입력. ‘<<깃허브 닉네임>>/<<저장소 이름>>’ 형식으로 채워넣는다.
+2-1 깃허브 저장소 연결하기
+: &lt;깃허브 닉네임&gt;/&lt;저장소 이름&gt; 형식으로 채워넣는다.
 
-![](/assets/posts/20220221/example3.png)
+![](/static/img/20220221-ex3.png)
 
-2-2
+2-2 댓글 매핑 방식 정하기
 : 나는 댓글 매핑 방식을 기본 설정값인 page pathname으로 했다. Issue 제목을 포스트 파일 이름으로 설정하겠다는 뜻이다.
 
-2-3
+2-3 Issue label 지정하기 (선택사항)
 : Issue label은 Issue 제목에 특정한 문자열을 넣어서 Utterances가 등록한 것인지 식별하고 싶을 때 사용하는 것인데, 나는 딱히 필요성을 못 느껴서 빈칸으로 두었다.
 
-2-4
+2-4 테마 선택하기 (선택사항)
 : 테마는 마음에 드는 걸로 선택하면 된다. 나는 Github Dark를 선택했다.
 
-## 3. 블로그에 추가
+## 3. 블로그에 추가하기
 
-![generated script](/assets/posts/20220221/example4.png)
+![generated script](/static/img/20220221-ex4.png)
 
 위의 절차를 모두 끝냈다면 사이트 하단에 이러한 스크립트가 생성된다. 이 스크립트를 사용해 Jekyll 블로그에 댓글을 적용하는 방법은 두 가지로, 정적인 방식과 동적인 방식이 있다.
 
-### 3-1. \_layouts/post.html에 추가하기 (정적)
+### 3-1. \_layouts/post.html에 추가하기 (정적인 방식)
 
 {: file='\_layouts/post.html'}
 
@@ -87,7 +90,7 @@ _나는 이미 설치를 한 상태여서 'Configure' 버튼이 보인다._
 
 나는 이 단점을 해결하기 위해 다른 방법을 사용했다.
 
-### 3-2. Liquid와 자바스크립트 활용하기 (동적)
+### 3-2. Liquid와 자바스크립트 활용하기 (동적인 방식)
 
 Liquid는 HTML에 직접 삽입된 변수, 조건문 등이 순수 HTML로 해석되는 템플릿 언어이다.
 또한 Jekyll은 Liquid를 지원하기 때문에 이를 잘 활용하면 더 효율적인 사이트를 만들 수 있다.

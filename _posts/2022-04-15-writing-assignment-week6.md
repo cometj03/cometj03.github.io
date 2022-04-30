@@ -7,7 +7,7 @@ date: 2022-04-15 23:23:00 +0900 # for Korea (UTC+9)
 categories: [Chatting, About Me]
 tags: [soongsil university, assignment]
 sitemap:
-  priority: 0.8
+  priority: 0.1
 ---
 
 그날 아침은 잠에서 깨자마자 어떤 한 생각에 사로잡혀 가슴이 두근거렸다. 걱정과 조바심이었다. 나는 이 두근거림이 무엇을 의미하는지 알고 있었지만 애써 부정하고 핸드폰을 켜 문자를 읽었다. 불합격. 정확한 내용은 기억나지 않지만 떨어졌다는 의미는 짐작할 수 있었다.
