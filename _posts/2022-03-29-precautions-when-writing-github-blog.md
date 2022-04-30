@@ -4,7 +4,7 @@ author:
   name: { { site.social.name } }
   link: https://github.com/cometj03
 date: 2022-03-29 21:43:00 +0900 # for Korea (UTC+9)
-categories: [Ridiculous Error, Github]
+categories: [Ridiculous Error, Github Actions]
 tags: [github actions, jekyll]
 sitemap:
   priority: 0.8
