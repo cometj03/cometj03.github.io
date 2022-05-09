@@ -1,5 +1,6 @@
 ---
 title: Utterances - Applying The Jekyll Blog Comment Feature / 블로그 댓글 적용하기
+subtitle: (feat. Utterances 테마 동적으로 변경하는 방법)
 author:
   name: Jung Hae Sung
   link: https://github.com/cometj03
@@ -9,8 +10,6 @@ tags: [customize, jekyll]
 sitemap:
   priority: 0.8
 ---
-
-### (feat. Utterances 테마 동적으로 변경하는 방법)
 
 Disqus는 가장 많은 사람들에게 사용되고 있는 댓글 플러그인 중 하나이다. 나도 처음에는 블로그 댓글로 그나마 친숙했던 Disqus를 고려하고 있었다. 하지만 디자인이 내 마음에 들지 않았고, 게다가 시간이 지나면 광고가 붙는다는 점 때문에 결국 고려대상에서 제외했다. 그렇게 다른 대안을 찾던 중 Utterances라는 플러그인이 내 눈길을 사로잡았다.
 

@@ -33,8 +33,8 @@ endfor %} {% endif %}
     </h1>
 
     <div class="post-content">
-      {% if post.summary %}
-      <p>{{ post.summary }}</p>
+      {% if post.subtitle %}
+      <p>{{ post.subtitle }}</p>
       {% else %}
       <p>
         {% include no-linenos.html content=post.content %} {{ content |
