@@ -1,3 +1,1 @@
-# My Blog
-
-cometj03.github.io
+# Jung Hae Sung's Blog
