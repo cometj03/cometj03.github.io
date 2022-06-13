@@ -1,6 +1,6 @@
 ---
 title: My Future Development Study Plan / 나의 앞으로의 개발 공부 계획
-subtitle: 공부해야지..
+description: 공부하자
 author:
   name: Jung Hae Sung
   link: https://github.com/cometj03
