@@ -28,6 +28,11 @@ order: 4
 
 - Update soon
 
+### 👀 블로그 | Blog
+
+- [현 블로그](https://cometj03.github.io/)
+- [전 블로그(네이버)](https://blog.naver.com/jhs030526)
+
 ### 📞 연락처 | Contacts
 
 - [harryjung1001@gmail.com](mailto:harryjung1001@gmail.com)
