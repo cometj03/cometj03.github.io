@@ -1,10 +1,10 @@
 ---
-title: About Me
+title: Profile
 icon: fas fa-info-circle
 order: 4
 ---
 
-## Hi there 👋 I'm Haesung Jung
+# 정해성 | Jung Hae Sung
 
 ### 🎓 학력 | Education
 
@@ -30,11 +30,10 @@ order: 4
 
 ### 👀 블로그 | Blog
 
-- [현 블로그](https://cometj03.github.io/)
-- [전 블로그(네이버)](https://blog.naver.com/jhs030526)
+- <https://cometj03.github.io/>
+- <https://blog.naver.com/jhs030526>
 
 ### 📞 연락처 | Contacts
 
 - [harryjung1001@gmail.com](mailto:harryjung1001@gmail.com)
 - [Instagram](https://www.instagram.com/cometj03)
-- [Facebook](https://www.facebook.com/XxCtrlZxX)
