@@ -23,7 +23,7 @@ timezone: Asia/Seoul
 
 title: Jung Hae Sung # the main title
 
-tagline: 어려울수록 기본과 본질에 미치고 열광하라 # it will display as the sub-title
+tagline: 차근차근 하나씩 # it will display as the sub-title
 
 # TODO: replace this
 description: >- # used by seo meta and the atom feed
