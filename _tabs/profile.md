@@ -31,7 +31,7 @@ order: 4
 ## 🔭 진행중인 프로젝트
 
 - 더 레스토랑 카페 주문 관리 앱
-  - https://github.com/cometj03/TR_cafe_order_app
+  - <https://github.com/cometj03/TR_cafe_order_app>
 
 ## 👀 다른 블로그
 
