@@ -7,7 +7,7 @@ order: 4
 # 정해성 | Jung Hae Sung
 
 <!-- prettier-ignore -->
-> 어려울수록 기본과 본질에 미치고 열광하라
+> 어려울수록 기본과 본질에 열광하라
 {: .prompt-tip }
 
 ## 🎓 학력
