@@ -35,3 +35,9 @@ $ sudo gem install jekyll bundler
 $ bundle
 $ bundle exec jekyll s
 ```
+
+또는 (for auto reload)
+
+```
+$ bundle exec jekyll s --force_polling --livereload
+```
