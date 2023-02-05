@@ -2,14 +2,11 @@ name: "CI"
 on:
   push:
     branches-ignore:
-      - "release/**"
+      - "production"
       - "docs"
-    tags-ignore:
-      - "**"
     paths-ignore:
       - ".github/**"
       - "!.github/workflows/ci.yml"
-      - ".travis.yml"
       - ".gitignore"
       - "README.md"
       - "LICENSE"
@@ -20,12 +17,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     strategy:
       matrix:
-        ruby: [2.6, 2.7, 3.1]
+        ruby: [2.7, 3]
+
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0 # for posts's lastmod
       - name: Setup Ruby
@@ -33,5 +32,6 @@ jobs:
         with:
           ruby-version: ${{ matrix.ruby }}
           bundler-cache: true
+
       - name: Test Site
-        run: bash tools/deploy.sh --dry-run
+        run: bash tools/test
