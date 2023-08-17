@@ -8,7 +8,8 @@ date: 2022-01-09 19:26:00 +0900 # for Korea (UTC+9)
 categories: [Ridiculous Error, Github Actions]
 tags: [github actions]
 sitemap:
-  priority: 0.8
+  priority: 0
+private: true
 ---
 
 ## Intro

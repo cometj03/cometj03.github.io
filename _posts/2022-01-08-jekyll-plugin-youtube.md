@@ -8,6 +8,7 @@ categories: [Development, Github]
 tags: [jekyll plugins, customize, jekyll]
 sitemap:
   priority: 0.8
+private: true
 ---
 
 <https://github.com/dommmel/jekyll-youtube>
