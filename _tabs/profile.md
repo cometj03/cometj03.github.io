@@ -33,8 +33,9 @@ order: 4
 - 더 레스토랑 카페 주문 관리 앱
   - <https://github.com/cometj03/TR_cafe_order_app> -->
 
-## 다른 블로그
+## 블로그
 
+- <https://cometj03.github.io>
 - <https://blog.naver.com/jhs030526>
 
 ## 연락처
