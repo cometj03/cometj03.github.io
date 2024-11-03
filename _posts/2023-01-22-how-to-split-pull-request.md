@@ -3,7 +3,7 @@ title: "[Git] Pull Request 반으로 쪼개기🔪"
 subtitle: "커밋별로 PR을 분류하는 방법과 깃 명령어에 대한 설명을 다룹니다."
 author: jhs
 date: 2023-01-22 16:19:00 +0900 # for Korea (UTC+9)
-categories: [Development, Github]
+categories: [Dev, git]
 tags: [Github, Git]
 ---
 

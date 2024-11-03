@@ -1,10 +1,8 @@
 ---
 title: My First Github Blog Page / 첫번째 깃허브 블로그 페이지
-author:
-  name: Jung Hae Sung
-  link: https://github.com/cometj03
+author: jhs
 date: 2021-12-27 00:28:00 +0900 # for Korea (UTC+9)
-categories: [Chatting, About Me]
+categories: [ETC]
 tags: [first page, blog]
 image:
   path: /static/20211227/preview.jpg
