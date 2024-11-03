@@ -25,8 +25,7 @@ default_num | minus: 1 %} {% if default_num > 0 %} {% for i in
 endfor %} {% endif %}
 
 <div id="post-list">
-  {% for post in posts %} {% if post.private == null or not {{ post.private }}
-  %}
+  {% for post in posts %}
 
   <div class="post-preview">
     <h1>
@@ -70,8 +69,7 @@ endfor %} {% endif %}
     <!-- .post-meta -->
   </div>
   <!-- .post-review -->
-
-  {% endif %} {% endfor %}
+  {% endfor %}
 </div>
 <!-- #post-list -->
 
