@@ -7,7 +7,7 @@ date: 2021-12-27 00:28:00 +0900 # for Korea (UTC+9)
 categories: [Chatting, About Me]
 tags: [first page, blog]
 image:
-  path: /static/img/20211227-preview.jpg
+  path: /static/20211227/preview.jpg
   width: 600
   height: 500
   alt: Thumbnail Image

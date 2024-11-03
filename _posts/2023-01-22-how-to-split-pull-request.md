@@ -11,9 +11,9 @@ tags: [Github, Git]
 >
 > (PR == Pull Request)
 
-![](/static/img/20230122-pr1.png)
+![](/static/20230122/pr1.png)
 
-![](/static/img/20230122-pr2.png)
+![](/static/20230122/pr2.png)
 
 # 개요
 
@@ -68,11 +68,11 @@ $ git checkout -b <branchname>
 
 2. 깃허브 사이트에서 하는 방법
 
-![커밋 로그](/static/img/20230122-commit-log.png)
+![커밋 로그](/static/20230122/commit-log.png)
 
 레포지토리의 특정 커밋을 찾고, 사진에 보이는 버튼을 누른다.
 
-![브랜치 생성](/static/img/20230122-create-branch.png)
+![브랜치 생성](/static/20230122/create-branch.png)
 
 버튼을 누르면 해당 시점의 레포지토리로 이동하게 되는데, 그 상태에서 브랜치를 새로 만들면 된다.
 
@@ -80,7 +80,7 @@ $ git checkout -b <branchname>
 
 > 이 단계는 CLI 명령어로만 가능하다.
 
-![커밋 로그](/static/img/20230122-commit-log.png)
+![커밋 로그](/static/20230122/commit-log.png)
 
 만약 이 브랜치에서 ‘fix: YdsNightBasicColors의 Gray 색 수정’ 커밋의 변경사항을 가져오고 싶다면 커밋의 해시값이 ‘11b79’로 시작한다는 것을 기억하고, 아래 명령을 입력한다. (feature/compose_night_gray는 앞 단계에서 분기한 브랜치라고 가정한다.)
 
