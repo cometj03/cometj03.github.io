@@ -32,14 +32,19 @@ conditional statement는 "P이면 Q이다", "If P then Q", "P implies Q", "P $\R
 이 명제는 홀수의 정의만 알고 있다면 증명할 수 있습니다. 홀수의 정의는 적절한 정수 $k$에 대해 $2k+1$로 표현할 수 있는 수입니다. 이것을 수학적으로 $n = 2k+1 \textbf{ for some } k \in \mathbb{Z}$와 같이 표현합니다. (참고로 '$k \in \mathbb{Z}$'는 'k in z'로 발음하면 됩니다. 앞으로 새로운 표현이 나올 때마다 읽는 방법도 설명하겠습니다.)
 
 먼저 우리에게 '주어진 것'과 '보일 것'을 정리합니다. (두 번째 문장은 첫 번째 문장을 수학이라는 언어로 표현했을 뿐 같은 의미입니다. 여기서는 저렇게 표현할 수 있구나 하고 넘어가도 됩니다.)
-- 주어진 것(Given)
-	- 정수 $m, n$이 홀수
-	- $m,n \in \mathbb{Z}$, $m = 2k+1 \textbf{ for some } k \in \mathbb{Z}$ and $n = 2l+1 \textbf{ for some } l \in \mathbb{Z}$
-- 보일 것(will show)
-	- $mn$이 홀수
-	- $mn = 2r+1 \textbf{ for some } r \in \mathbb{Z}$
+
+주어진 것(Given)
+: 정수 $m, n$이 홀수
+: $m,n \in \mathbb{Z}$, $m = 2k+1 \textbf{ for some } k \in \mathbb{Z}$ and $n = 2l+1 \textbf{ for some } l \in \mathbb{Z}$
+
+보일 것(will show)
+: $mn$이 홀수
+: $mn = 2r+1 \textbf{ for some } r \in \mathbb{Z}$
 
 증명은 간단합니다. 주어진 것을 가지고 결론(보일 것)에 도달할 수 있는지를 보이면 됩니다.
+
+Proof:
+: 
 
 $$
 \begin{split}
@@ -70,19 +75,21 @@ $$
 
 이제 Example 1에서 했던 것과 같이 주어진 것과 보일 것을 적습니다.
 
-- 주어진 것(Given)
-	- $n$은 정수. 즉 n은 홀수 또는 짝수
-	- $n = 2k$ or $n=2k+1 \textbf{ for some } k \in \mathbb{Z}$
-- 보일 것(will show)
-	- $n^2+n$이 짝수
-	- $n^2+n=2r \textbf{ for some } r \in \mathbb{Z}$ 
+주어진 것(Given)
+: $n$은 정수. 즉 n은 홀수 또는 짝수
+: $n = 2k$ or $n=2k+1 \textbf{ for some } k \in \mathbb{Z}$
 
-Case 1)
-: If $n$ is $2k$, then $n^2+n=(2k)^2+(2k)=2(2k^2+k)$
+보일 것(will show)
+: $n^2+n$이 짝수
+: $n^2+n=2r \textbf{ for some } r \in \mathbb{Z}$ 
 
-Case 2)
-: If $n$ is $2k+1$, then $n^2+n=(2k+1)^2+(2k+1)=2(2k^2+3k+1)$
-
-Since $k \in \mathbb{Z}$, $r=2k^2+k \in \mathbb{Z}$ or $r=2k^2+3k+1 \in \mathbb{Z}$
+Proof:
+: **Case 1:** If $n$ is $2k$, then $n^2+n=(2k)^2+(2k)=2(2k^2+k)$
+: **Case 2:** If $n$ is $2k+1$, then $n^2+n=(2k+1)^2+(2k+1)=2(2k^2+3k+1)$
+: Since $k \in \mathbb{Z}$, $r=2k^2+k \in \mathbb{Z}$ or $r=2k^2+3k+1 \in \mathbb{Z}$
 
 이렇게 $n$이 $2k$일 때, $n$이 $2k+1$일 때 각각 계산해서 모든 경우에 대해 $n^2+n$으로 계산한 결과가 짝수라는 것을 증명했습니다.
+
+---
+
+다음 글에서는 간접적으로 증명하는 방법에 대해 소개하겠습니다.
