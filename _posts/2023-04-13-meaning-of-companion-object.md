@@ -4,8 +4,6 @@ author: jhs
 date: 2023-04-13 23:06:00 +0900 # for Korea (UTC+9)
 categories: [Chatting, short]
 tags: [Kotlin, Java, oop]
-sitemap:
-  priority: 0.8
 ---
 
 객체지향 프로그래밍이라는 수업에서는 객체지향의 개념과 그것을 익히기 위한 도구로서 자바 언어에 대해 배운다.

@@ -6,8 +6,6 @@ author:
 date: 2022-01-16 13:12:00 +0900 # for Korea (UTC+9)
 categories: [Chatting, About Me]
 tags: [settings, customize]
-sitemap:
-  priority: 0.8
 ---
 
 이번 블로그에서는 나의 개발 효율을 항상시켜주는 유용한 프로그램, 세팅들을 공유 겸 정리해보려고 한다. 글을 처음 작성하는 시점인 지금은 몇가지 없는데, 앞으로 공유할 만한 게 더 생기면 꾸준히 업데이트할 예정이다.

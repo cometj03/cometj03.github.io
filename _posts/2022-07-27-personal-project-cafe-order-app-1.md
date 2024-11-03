@@ -9,9 +9,6 @@ image:
   width: 220
   height: 170
   alt: The Restaurant Logo
-sitemap:
-  priority: 0
-private: true
 ---
 
 # 개발 동기

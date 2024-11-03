@@ -6,8 +6,6 @@ author:
 date: 2022-05-09 00:04:00 +0900 # for Korea (UTC+9)
 categories: [Chatting, About Me]
 tags: [plan, development]
-sitemap:
-  priority: 0.8
 ---
 
 ![Chef Movie Capture](/static/img/20220509-chef.png)

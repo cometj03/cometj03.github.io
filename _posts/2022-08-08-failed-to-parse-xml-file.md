@@ -4,8 +4,6 @@ author: jhs
 date: 2022-08-08 21:49:00 +0900 # for Korea (UTC+9)
 categories: [Ridiculous Error, Android Error]
 tags: [dataBinding]
-sitemap:
-  priority: 0.8
 ---
 
 앱 개발 하던 중 액티비티 xml을 만들고 data binding을 사용하기 위해 루트 레이아웃을 `<layout>`으로 바꾸었더니 아래의 오류 메시지와 함께 오류가 발생했다.

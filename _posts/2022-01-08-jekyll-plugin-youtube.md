@@ -6,9 +6,6 @@ author:
 date: 2022-01-08 18:31:00 +0900 # for Korea (UTC+9)
 categories: [Development, Github]
 tags: [jekyll plugins, customize, jekyll]
-sitemap:
-  priority: 0.8
-private: true
 ---
 
 <https://github.com/dommmel/jekyll-youtube>
