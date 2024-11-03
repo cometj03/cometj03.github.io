@@ -51,7 +51,7 @@ Proof:
 > **Prove:** Let $m$ and $n$ be integers. Prove that if $mn$ is odd, then both $m$ and $n$ are odd.
 {: .prompt-tip }
 
-Direct proof의 Example 1과 비슷한데 다르죠. 앞에서 증명한 것은 $m, n$이 홀수일 때 $mn$이 홀수인 거고 이건 $mn$이 홀수일 때 $m, n$이 둘 다 홀수라는 명제입니다. 둘이 역 관계입니다. 이 명제도 참이라면 저 두 조건은 필요충분조건이 됩니다.
+Direct proof에서 다루었던 [Example 1](/posts/number-theory1-1/#example-1)의 명제와 비슷해보이지만, 실제로 다른 명제입니다. 앞에서 증명한 것은 $m, n$이 홀수일 때 $mn$이 홀수인 거고 이건 $mn$이 홀수일 때 $m, n$이 둘 다 홀수라는 명제입니다. 둘이 역 관계입니다. 이 명제도 참이라면 저 두 조건은 필요충분조건이 됩니다.
 
 모순을 이용한 증명에서는 결론만 부정합니다. "both $m$ and $n$ are odd"를 부정하면 "either $m$ or $n$ is even"이 됩니다. 둘 중 하나가 짝수라는 얘기죠. 즉 "if $mn$ is odd, then either $m$ or $n$ is even" 이 문장에 모순이 있다는 것을 보임으로써 원래 명제가 참이라는 것을 증명할 수 있습니다.
 
