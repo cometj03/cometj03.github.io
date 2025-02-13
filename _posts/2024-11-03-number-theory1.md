@@ -13,7 +13,7 @@ math: true
 첫 번째와 두 번째 챕터에서는 정수론을 공부하기 전 필수로 알고 있어야 하는 사전 지식(preliminary)들을 정리하고 있습니다. 꼭 정수론이 아니더라도 모든 수학 분야에 적용된다고 봐도 될 것 같습니다.
 그럼 그 첫 번째 챕터인 How to prove a statement, 명제의 참/거짓을 증명하는 방법에 대해 알아보겠습니다.
 
-# Direct Proof
+## Direct Proof
 명제를 증명하는 방법은 크게 직접(direct) 증명하는 방법과 간접적으로(indirect) 증명하는 방법으로 나눌 수 있습니다.
 
 Direct proof는 conditional statement를 증명할 때 유용합니다.
@@ -21,7 +21,7 @@ conditional statement는 "P이면 Q이다", "If P then Q", "P implies Q", "P $\R
 
 그럼 다음 예시를 보면서 감을 잡아보도록 하죠.
 
-## Example 1
+### Example 1
 
 > **Prove:** Let $m,n$ be integers. If both $m$ and $n$ are odd, then $mn$ is odd.
 {: .prompt-tip }
@@ -63,7 +63,7 @@ $$
 
 이렇게 홀수(odd)의 정의만 알고 있다면 "If both $m$ and $n$ are odd, then $mn$ is odd."가 참이라는 것을 증명할 수 있습니다. 이와 같이 direct proof는 정의를 이용하여 직접 증명하는 것이 대표적입니다.
 
-## Example 2
+### Example 2
 
 > **Prove:** For every integer $n$, the integer $n^2+n$ is even.
 {: .prompt-tip }
@@ -91,14 +91,16 @@ Proof:
 
 이렇게 $n$이 $2k$일 때, $n$이 $2k+1$일 때 각각 계산해서 모든 경우에 대해 $n^2+n$으로 계산한 결과가 짝수라는 것을 증명했습니다.
 
-# Indirect Proof: by Contradiction
+---
+
+## Indirect Proof: by Contradiction
 간접적으로 증명하는 방법은 두 가지로 나눌 수 있는데 그 중 하나가 모순(contradiction)을 이용한 방법입니다. 
 
 "Assume P, suppose ~Q": 즉 "P라고 했을 때 Q가 아니라고 한다면 모순이 발생할걸?"이라는 논리로 진행됩니다.
 
 모순을 이용한 방법은 주로 conditional statement가 아닌 명제를 증명할 때 유용합니다. P는 보통 grand assumption(대전제)이거나 Q의 특성이나 정의라서 생략할 수 있기 때문입니다.
 
-## Example 1
+### Example 1
 > The characteristic of Dr. Bean is that if she arrives in the morning at the Math department, she takes her mug from the department office and take a cup of coffee, and she is never without her coffee until she goes home in the evening.
 > 
 > **Prove:** Dr. Bean has not arrived yet.
@@ -111,7 +113,7 @@ Dr. Bean은 항상 부서에 도착하면 사무실에서 그녀의 머그를 �
 
 도착했다면 머그를 들고 제자리로 갔을테니 사무실에 머그가 없어야 하는데 그녀의 머그가 아직 사무실에 있습니다. 이것은 모순(Dr. Bean의 특성에 어긋남)이므로 Dr. Bean은 아직 도착하지 않았다고 할 수 있습니다.
 
-## Example 2
+### Example 2
 > **Prove:** There is no smallest positive rational number.
 {: .prompt-tip }
 
@@ -129,11 +131,11 @@ Proof:
 : This contradicts the assumption that $q$ is the smallest positive rational number.
 : Hence, there is no smallest positive rational number.
 
-## Example 3
+### Example 3
 > **Prove:** Let $m$ and $n$ be integers. Prove that if $mn$ is odd, then both $m$ and $n$ are odd.
 {: .prompt-tip }
 
-Direct proof에서 다루었던 [Example 1](/posts/number-theory1-1/#example-1)의 명제와 비슷해보이지만, 실제로 다른 명제입니다. 앞에서 증명한 것은 $m, n$이 홀수일 때 $mn$이 홀수인 거고 이건 $mn$이 홀수일 때 $m, n$이 둘 다 홀수라는 명제입니다. 둘이 역 관계입니다. 이 명제도 참이라면 저 두 조건은 필요충분조건이 됩니다.
+Direct proof에서 다루었던 Example 1의 명제와 비슷해보이지만, 실제로 다른 명제입니다. 앞에서 증명한 것은 $m, n$이 홀수일 때 $mn$이 홀수인 거고 이건 $mn$이 홀수일 때 $m, n$이 둘 다 홀수라는 명제입니다. 둘이 역 관계입니다. 이 명제도 참이라면 저 두 조건은 필요충분조건이 됩니다.
 
 모순을 이용한 증명에서는 결론만 부정합니다. "both $m$ and $n$ are odd"를 부정하면 "either $m$ or $n$ is even"이 됩니다. 둘 중 하나가 짝수라는 얘기죠. 즉 "if $mn$ is odd, then either $m$ or $n$ is even" 이 문장에 모순이 있다는 것을 보임으로써 원래 명제가 참이라는 것을 증명할 수 있습니다.
 
@@ -150,13 +152,14 @@ Direct proof에서 다루었던 [Example 1](/posts/number-theory1-1/#example-1)�
 Proof:
 : $m$을 짝수라고 한다면 $mn=(2l)n=2(ln)$이므로 $mn$ 또한 짝수가 됩니다. 이는 $mn$이 홀수라는 가정에 모순됩니다.
 
+---
 
-# Indirect Proof: by Contrapositive
+## Indirect Proof: by Contrapositive
 간접적으로 증명하는 방법 중 두 번째 방법으로 대우(contrapositive)를 이용하는 방법이 있습니다.
 
 즉 "$P \Rightarrow Q$ (P이면 Q이다)"는 논리적으로 그것의 대우인 "$\sim Q \Rightarrow \sim P$ (Q가 아니면 P가 아니다)"와 동치이기 때문에 둘 중 하나가 해결되면 다른 하나도 저절로 해결됩니다. 따라서 둘 중 더 증명하기 쉬운 명제를 증명하겠다는 의미입니다.
 
-## Example 1
+### Example 1
 > Let $x$ be a positive real number. 
 > 
 > **Prove:** if $x$ is irrational, then $\sqrt{x}$ is irrational.
@@ -180,6 +183,7 @@ Proof:
 : $x>0$이므로 $\sqrt{x}^2=x={m^2 \over n^2}$. 그리고 $m^2,n^2 \in \mathbb{Z}, n^2 \ne 0$. 따라서 $x$ 또한 유리수입니다.
 
 ---
+
 이렇게 챕터 1이 끝났습니다. 실제로 수학에서 소개되는 증명들은 모두 이 글에서 설명한 Direct proof와 Indirect proof에 기반을 두고 있다고 보아도 무방할 것 같습니다.
 
 다음 챕터 2에서는 증명할 때 사용되는 강력한 도구인 수학적 귀납법과 이항정리에 대해 소개하겠습니다.
