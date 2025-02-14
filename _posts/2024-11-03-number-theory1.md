@@ -36,11 +36,11 @@ conditional statement는 "P이면 Q이다", "If P then Q", "P implies Q", "P $$\
 
 주어진 것(Given)
 : 정수 $$m, n$$이 홀수
-: $$m,n \in \mathbb{Z}$$, $$m = 2k+1 \textbf{ for some } k \in \mathbb{Z}$$ and $$n = 2l+1 \textbf{ for some } l \in \mathbb{Z}$$
+: $$m,n \in \mathbb{Z}$$, $$m = 2k+1 \textbf{ for some } k \in \mathbb{Z}$$ and $$n = 2l+1 \textbf{ for some } l \in \mathbb{Z}$$.
 
 보일 것(will show)
 : $$mn$$이 홀수
-: $$mn = 2r+1 \textbf{ for some } r \in \mathbb{Z}$$
+: $$mn = 2r+1 \textbf{ for some } r \in \mathbb{Z}$$.
 
 증명은 간단합니다. 주어진 것을 가지고 결론(보일 것)에 도달할 수 있는지를 보이면 됩니다.
 
@@ -78,11 +78,11 @@ $$
 
 주어진 것(Given)
 : $$n$$은 정수. 즉 n은 홀수 또는 짝수
-: $$n = 2k$$ or $$n=2k+1 \textbf{ for some } k \in \mathbb{Z}$$
+: $$n = 2k$$ or $$n=2k+1 \textbf{ for some } k \in \mathbb{Z}$$.
 
 보일 것(will show)
 : $$n^2+n$$이 짝수
-: $$n^2+n=2r \textbf{ for some } r \in \mathbb{Z}$$ 
+: $$n^2+n=2r \textbf{ for some } r \in \mathbb{Z}$$.
 
 Proof:
 : **Case 1:** If $$n$$ is $$2k$$, then $$n^2+n=(2k)^2+(2k)=2(2k^2+k)$$
@@ -135,19 +135,19 @@ Proof:
 > **Prove:** Let $$m$$ and $$n$$ be integers. Prove that if $$mn$$ is odd, then both $$m$$ and $$n$$ are odd.
 {: .prompt-tip }
 
-Direct proof에서 다루었던 Example 1의 명제와 비슷해보이지만, 실제로 다른 명제입니다. 앞에서 증명한 것은 $$m, n$$이 홀수일 때 $$mn$$이 홀수인 거고 이건 $$mn$$이 홀수일 때 $$m, n$$이 둘 다 홀수라는 명제입니다. 둘이 역 관계입니다. 이 명제도 참이라면 저 두 조건은 필요충분조건이 됩니다.
+Direct proof에서 다루었던 [Example 1](#example-1)의 명제와 비슷해보이지만, 실제로 다른 명제입니다. 앞에서 증명한 것은 $$m, n$$이 홀수일 때 $$mn$$이 홀수인 거고 이건 $$mn$$이 홀수일 때 $$m, n$$이 둘 다 홀수라는 명제입니다. 둘이 역 관계입니다. 이 명제도 참이라면 저 두 조건은 필요충분조건이 됩니다.
 
 모순을 이용한 증명에서는 결론만 부정합니다. "both $$m$$ and $$n$$ are odd"를 부정하면 "either $$m$$ or $$n$$ is even"이 됩니다. 둘 중 하나가 짝수라는 얘기죠. 즉 "if $$mn$$ is odd, then either $$m$$ or $$n$$ is even" 이 문장에 모순이 있다는 것을 보임으로써 원래 명제가 참이라는 것을 증명할 수 있습니다.
 
-결론에서 $$m$$이 짝수인 경우, $$n$$이 짝수인 경우, $$m$$과 $$n$$이 모두 짝수인 경우 총 세 가지 경우를 보아야 합니다. 그런데 거의 비슷한 결과를 굳이 여러 번 보이는 건 귀찮습니다. 이럴 때 "without loss of generality"(일반성을 잃지 않고) 둘 중 짝수인 수를 $$m$$이라고 둘 수 있습니다. 보통 *WLOG*라는 약자로 사용합니다.
+결론에서 $$m$$이 짝수인 경우, $$n$$이 짝수인 경우, $$m$$과 $$n$$이 모두 짝수인 경우 총 세 가지 경우를 보아야 합니다. 그런데 거의 비슷한 결과를 굳이 여러 번 보이는 건 귀찮습니다. 이럴 때 "Without Loss Of Generality(일반성을 잃지 않고)" 둘 중 짝수인 수를 $$m$$이라고 둘 수 있습니다. 보통 *WLOG*라는 약자로 사용합니다.
 
 주어진 것(Given)
 : $$mn$$이 홀수
-: $$mn=2k+1 \textbf{ for some } k \in \mathbb{Z}$$ 
+: $$mn=2k+1 \textbf{ for some } k \in \mathbb{Z}$$.
 
 가정(suppose)
 : $$m$$ 또는 $$n$$ 중 적어도 하나는 짝수. *일반성을 잃지 않고*, 둘 중 짝수인 수를 $$m$$이라 하자
-: *WLOG*, let $$m$$ be the even integer. So, $$m=2l \textbf{ for some } l \in \mathbb{Z}$$
+: *WLOG*, let $$m$$ be the even integer. So, $$m=2l \textbf{ for some } l \in \mathbb{Z}$$.
 
 Proof:
 : $$m$$을 짝수라고 한다면 $$mn=(2l)n=2(ln)$$이므로 $$mn$$ 또한 짝수가 됩니다. 이는 $$mn$$이 홀수라는 가정에 모순됩니다.
@@ -174,7 +174,7 @@ $$x$$는 양의 실수라고 했으므로 무리수가 아니라는 것은 유�
 
 주어진 것(Given)
 : $$x$$는 양의 실수, $$\sqrt{x}$$가 유리수
-: $$\sqrt{x} = {m \over n}, \textbf{ for some } m,n \in \mathbb{Z}, n \ne 0$$
+: $$\sqrt{x} = {m \over n}, \textbf{ for some } m,n \in \mathbb{Z}, n \ne 0$$.
 
 보일 것(will show)
 : $$x$$가 유리수
